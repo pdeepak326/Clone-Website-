@@ -1,6 +1,6 @@
 .txt-50
 {
-    font-size:50px;
+    font-size:35px;
 }
 .white
 {
@@ -16,18 +16,24 @@ background-color:black;
   background-color: #ecf9ff;
   }
 
-  img {
+  .img{
     height: auto;
     max-width: 100%;
+  }
+  .img_size{
+    height:625px;
   }
   
   .slide_title {
     color: #ffffff;
-    font-size: 2.1rem;
+    font-size: 2.5rem;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: capitalize;
-    margin: 0px;
+    margin:14px;
+  }
+  .para{
+  font-size:1.5rem;
   }
 
 .card_text {
@@ -40,7 +46,7 @@ background-color:black;
   
   .sub_title {
     color: #ffffff;
-    font-size: 1.875rem;
+    font-size: 2.0rem;
     line-height: 1.5;
     margin-bottom: 1.25rem;    
     font-weight: 400;
@@ -112,4 +118,31 @@ background-color:black;
   width: 100%;
   height: 100%;
   padding: 10px;
+}
+@media (max-width: 750.98px){
+  .slide_title{
+    font-size:25px;
+  }
+  .sub_title{
+    font-size:20px;
+  }
+  .para{
+    font-size: 15px;
+  }
+  .img_size{
+    height:500px;
+  }
+
+}
+@media (max-width:410.98px){
+  .slide_title{
+    font-size:20px;
+  }
+  .sub_title{
+    font-size:18px;
+  }
+  .para{
+    font-size: 15px;
+  }
+
 }
